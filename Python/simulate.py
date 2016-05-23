@@ -2,6 +2,7 @@ import operator
 import copy
 
 def greatest(data, size = 32):
+	data = copy.copy(data)
 	ret = []
 	for i in range(0, size):
 		if len(data) > 0:

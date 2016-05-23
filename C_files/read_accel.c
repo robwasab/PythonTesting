@@ -279,7 +279,7 @@ int main(int argc, char * argv[])
 	// input stream
 	u8 num_read;
 	
-	u16 total_count = 0;
+	size_t total_count = 0;
 	
 	while (1) 
 	{
